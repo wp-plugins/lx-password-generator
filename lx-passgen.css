@@ -1,0 +1,12 @@
+div.passgen {
+	margin: 0;
+	padding: 0;
+}
+
+span.passgen-list-item {
+	margin-left: 0.5em;
+}
+
+input.passgen-error {
+	border: 2px solid red;
+}
