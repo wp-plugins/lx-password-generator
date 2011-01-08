@@ -24,7 +24,7 @@ You can also specify the following attributes to tune the form's appearance:
 
 Plugin's Official Site
 
-[Alex Granovsky Blog](http://contactform7.com)
+[Alex Granovsky Blog](http://lx6g.com)
 
 == Installation ==
 
