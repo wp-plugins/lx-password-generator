@@ -14,18 +14,18 @@ You can choose from upper and lower letters, digits and special characters to ma
 And yes, all the passwords are generated only within client's browser session and are not saved anywhere on the server side,
 so it is absolutely safe to use in real world.
 
-== Installation ==
-
-1. Upload the archive contents to `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in Wordpress
-3. Place `[passgen]` shortcode in your page or post
-
 You can also specify the following attributes to tune the form's appearance:
 * `length=4..64` specifies the default length of a password. Allowed values range from 4 to 64.  
 * `upper=1` enables upper-case letters option. Activated by default.
 * `lower=1` enables lower-case letters option. Activated by default.
 * `digits=1` enables digits option. Activated by default.
 * `special=1` enables special characters `,.:;_=` option. Disabled by default.  
+
+== Installation ==
+
+1. Upload the archive contents to `/wp-content/plugins/` directory
+2. Activate the plugin through the 'Plugins' menu in Wordpress
+3. Place `[passgen]` shortcode in your page or post
 
 == Frequently Asked Questions ==
 
