@@ -20,6 +20,13 @@ so it is absolutely safe to use in real world.
 2. Activate the plugin through the 'Plugins' menu in Wordpress
 3. Place `[passgen]` shortcode in your page or post
 
+You can also specify the following attributes to tune the form's appearance:
+* `length=4..64` specifies the default length of a password. Allowed values range from 4 to 64.  
+* `upper=1` enables upper-case letters option. Activated by default.
+* `lower=1` enables lower-case letters option. Activated by default.
+* `digits=1` enables digits option. Activated by default.
+* `special=1` enables special characters `,.:;_=` option. Disabled by default.  
+
 == Frequently Asked Questions ==
 
 = Any questions =
@@ -34,6 +41,11 @@ Not right now...
 
 = 1.0 =
 * Initial release.
+
+= 1.0.1 =
+* Some minor tweaks.
+* Shortcode attributes described in readme.txt
+
 
 == Upgrade Notice ==
 

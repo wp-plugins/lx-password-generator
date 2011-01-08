@@ -2,7 +2,7 @@
 /* 
 Plugin Name: LX Password Generator
 Plugin URI: http://lx6g.com/2011/01/passgen-for-wordpress/
-Version: 1.0
+Version: 1.0.1
 Author: Alex Granovsky
 Author URI: http://lx6g.com
 Description: Simple yet nifty password generation form to be placed in any page or post you like.

@@ -37,6 +37,12 @@ function generatePassword() {
     	aFull = aFull + aSpecial; }
     
     var fullLen = aFull.length;
+    if (fullLen==0) {
+    	document.lxPassGenForm.result.value = "Please select some options!";
+    	document.lxPassGenForm.result.className = 'passgen-error';
+    	setTimeout("document.lxPassGenForm.result.className = '';",2000);
+    	return false;
+    }
     
     for (i=0; i < length; i++) {
 	    pass = pass + aFull[getRandom(fullLen)];
@@ -62,6 +68,13 @@ function getRandom(max) {
     rnd = parseInt(rnd * max);
     return rnd;
 }
+
+
+function pause(milliseconds) {
+	var dt = new Date();
+	while ((new Date()) - dt <= milliseconds) { /* Do nothing */ }
+}
+
 
 function isNumber(n) {
   return !isNaN(parseFloat(n)) && isFinite(n);
