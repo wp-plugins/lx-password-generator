@@ -15,11 +15,16 @@ And yes, all the passwords are generated only within client's browser session an
 so it is absolutely safe to use in real world.
 
 You can also specify the following attributes to tune the form's appearance:
+
 * `length=4..64` specifies the default length of a password. Allowed values range from 4 to 64.  
 * `upper=1` enables upper-case letters option. Activated by default.
 * `lower=1` enables lower-case letters option. Activated by default.
 * `digits=1` enables digits option. Activated by default.
-* `special=1` enables special characters `,.:;_=` option. Disabled by default.  
+* `special=1` enables special characters `,.:;_=` option. Disabled by default. 
+
+Plugin's Official Site
+
+[Alex Granovsky Blog](http://contactform7.com)
 
 == Installation ==
 
