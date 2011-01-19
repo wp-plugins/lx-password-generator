@@ -51,6 +51,8 @@ Not right now...
 * Some minor tweaks.
 * Shortcode attributes described in readme.txt
 
+= 1.0.2 =
+* Firefox 4 compatibility fix
 
 == Upgrade Notice ==
 

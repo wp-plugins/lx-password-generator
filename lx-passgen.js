@@ -14,10 +14,10 @@ function generatePassword() {
     	return false;
     }
         
-	special = Boolean(document.lxPassGenForm.special.value);
-	digits = Boolean(document.lxPassGenForm.digits.value);
-	lower = Boolean(document.lxPassGenForm.lower.value);
-	upper = Boolean(document.lxPassGenForm.upper.value);
+	special = Boolean(document.lxPassGenForm.special.checked);
+	digits = Boolean(document.lxPassGenForm.digits.checked);
+	lower = Boolean(document.lxPassGenForm.lower.checked);
+	upper = Boolean(document.lxPassGenForm.upper.checked);
 
 
 	var aSpecial = ",.:;_=";
